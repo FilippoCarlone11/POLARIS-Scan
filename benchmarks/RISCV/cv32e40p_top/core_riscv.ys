@@ -1,0 +1,18 @@
+read_verilog cv32e40p_top.v
+hierarchy -check -top cv32e40p_top
+flatten
+proc
+opt_clean
+stat
+
+
+techmap
+opt -fast
+
+
+dfflibmap -liberty /app/Tech/Syn_libraries/45nm/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty /app/Tech/Syn_libraries/45nm/lib/NangateOpenCellLibrary_typical.lib
+opt_clean
+stat
+
+write_verilog -noattr cv32e40p_top_45nm.synth.v

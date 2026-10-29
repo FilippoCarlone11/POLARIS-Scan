@@ -1,0 +1,12 @@
+read_verilog b18.v
+hierarchy -check -top b18
+synth -top b18
+opt -full                       
+splitnets -ports
+opt_clean -purge
+dfflibmap -liberty /app/Tech/Syn_libraries/45nm/lib/NangateOpenCellLibrary_typical.lib
+abc -liberty /app/Tech/Syn_libraries/45nm/lib/NangateOpenCellLibrary_typical.lib
+flatten
+setundef -zero
+clean -purge
+write_verilog b18_45nm.synth.v

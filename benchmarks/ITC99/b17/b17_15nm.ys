@@ -1,0 +1,23 @@
+read_verilog b17.v
+hierarchy -check -top b17
+
+synth -top b17 -flatten
+opt -full
+
+
+setundef -undriven -zero
+opt -full
+
+splitnets -ports
+opt_clean -purge
+
+
+dfflibmap -liberty /app/Tech/Syn_libraries/15nm/CCS/NanGate_15nm_OCL_typical_conditional_ccs.lib
+abc -liberty /app/Tech/Syn_libraries/15nm/CCS/NanGate_15nm_OCL_typical_conditional_ccs.lib
+opt_clean -purge
+
+
+check
+stat -liberty /app/Tech/Syn_libraries/15nm/CCS/NanGate_15nm_OCL_typical_conditional_ccs.lib
+clean -purge
+write_verilog -noattr b17_15nm.synth.v

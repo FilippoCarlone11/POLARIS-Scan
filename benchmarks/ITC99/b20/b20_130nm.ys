@@ -1,0 +1,12 @@
+read_verilog b20.v
+hierarchy -check -top b20
+synth -top b20
+opt -full                       
+splitnets -ports
+opt_clean -purge
+dfflibmap -liberty /app/Tech/Syn_libraries/130nm/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+abc -liberty /app/Tech/Syn_libraries/130nm/lib/sg13g2_stdcell_typ_1p20V_25C.lib
+flatten
+setundef -zero
+clean -purge
+write_verilog b20_130nm.synth.v
