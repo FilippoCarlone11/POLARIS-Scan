@@ -8,14 +8,20 @@
 # Gabriele Belli - 
 #
 
+from pathlib import Path
 import logging
 
 def setup_logging(log_path):
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-        handlers=[
-            logging.FileHandler(log_path, mode="w"),
-            logging.StreamHandler(),
-        ],
-    )
+    p = Path(log_path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    root = logging.getLogger()
+    root.setLevel(logging.INFO)
+    for h in list(root.handlers):
+        root.removeHandler(h)
+    fmt = logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    fh = logging.FileHandler(str(p), mode="w")
+    fh.setFormatter(fmt)
+    sh = logging.StreamHandler()
+    sh.setFormatter(fmt)
+    root.addHandler(fh)
+    root.addHandler(sh)

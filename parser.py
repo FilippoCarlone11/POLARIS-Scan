@@ -26,7 +26,7 @@ def parse_tcl(filename):
         'liberty_file' : None,
         #'tech' : None,
         'output_name' : None,
-        'work_dir' : '.',
+        'work_dir' : 'log',
         'sin' : 'sin',
         'sout' : 'sout',
         'shift' : 'shift',
@@ -155,8 +155,17 @@ def parse_tcl(filename):
         log.error("when the operation is CHAIN you should provide a n_chains name that is not None through set_n_chains (without using set_n_chains, the chain will be one)")
         sys.exit(1)
     if configuration['output_name'] is None:
-        log.error("when the operation is CHAIN you should provide an output name that is not None through set_output_name")
-        sys.exit(1)
+        if configuration['verilog_file'] is not None:
+            v = configuration['verilog_file']
+            if v.endswith(".synth.v"):
+                configuration['output_name'] = v[:-len(".synth.v")] + ".scan.v"
+            elif v.endswith(".v"):
+                configuration['output_name'] = v[:-len(".v")] + ".scan.v"
+            else:
+                configuration['output_name'] = v + ".scan.v"
+        else:
+            log.error("when the operation is CHAIN you should provide an output name that is not None through set_output_name")
+            sys.exit(1)
     if configuration['liberty_file'] is None:
         log.error("when the operation is CHAIN you should provide the liberty_file")
         sys.exit(1)

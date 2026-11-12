@@ -1,0 +1,25 @@
+2026-11-12 11:48:10,528 [INFO] chain: start scan chain
+/app/lib2flipflop.py:534: UserWarning: "DFFRS_X" matcha anche: SDFFRS_X1, SDFFRS_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFR_X" matcha anche: SDFFR_X1, SDFFR_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFS_X" matcha anche: SDFFS_X1, SDFFS_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFF_X" matcha anche: SDFF_X1, SDFF_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 0): _61_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 1): _60_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 2): _59_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 3): _58_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 4): _57_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 5): _56_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 6): _55_
+2026-11-12 11:48:11,278 [INFO] chain: Chained (chain 0, 7): _54_
+2026-11-12 11:48:11,285 [INFO] chain: Internal scan chain inserted: 8 FFs in 1 chain(s) (sizes 8, shift depth 8), mux MUX2_X1, clock mux __clk_source__
+2026-11-12 11:48:11,285 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:48:11,285 [INFO] chain: the scan chain file name is b02_45nm.scan.v
+2026-11-12 11:48:11,285 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:48:11,285 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:48:11,285 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:48:11,285 [INFO] polaris:  chain                             0.76        0.76            0.00            81.9          49.2          0.0
+2026-11-12 11:48:11,285 [INFO] polaris:  RSS peak of Polaris on the entire run: 83.4 MB

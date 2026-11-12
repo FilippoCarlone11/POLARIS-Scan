@@ -2,7 +2,7 @@
 # usage: polaris b20_15nm.tcl
 set_operation chain
 set_liberty /app/Tech/Syn_libraries/15nm/CCS/NanGate_15nm_OCL_typical_conditional_ccs.lib
-read_verilog 15nm/synthesis/b20.synth.v
-set_output_name 15nm/scan/b20.chain.v
-set_work_dir 15nm/scan
+read_verilog b20_15nm.synth.v
+set_output_name b20_15nm.scan.v
+set_work_dir log
 set_clock clk

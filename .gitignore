@@ -13,8 +13,8 @@
 *.out
 *.vcd
 /*.sv
-/*.v
-/*.log
+
+
 
 *.json
 !/nix/workspace-state.json 
@@ -32,33 +32,11 @@ parsetab.py
 parser.out
 /venv
 
-# Artefatti di sintesi e test
-*.synth.v
-*.scan.v
-*.cut.v
-# *.bench
-*.test
-*.out
-*.vcd
-*.vvp
-*.log
-*_script.ys
-*.vec
 
 #aggiunte nostre
 *.swp
 thr*/
-# Cartelle generate dal flusso
-log/
-img/
-# atpg/
-scan/
-simulation/
-synthesis/
-Netlists/
-fftest/
-output/
-testing/
+
 
 # Tool esterni
 /iverilog*/
@@ -74,9 +52,9 @@ temp.txt
 
 parser.out
 parsetab.py
-*.scan.v*
+
 *script.ys
-*.synth*
+
 equiv_test.vcd
 sim.vpp
 scan.log
@@ -88,15 +66,8 @@ synthesis.log
 # Test
 .pytest_cache/
 
-# Nix
-!/nix/workspace-state.json
-
 .venv/
 
-
-*.chain.v
-*.cut.v
-*.bench
 
 *.rpt
 report.txt

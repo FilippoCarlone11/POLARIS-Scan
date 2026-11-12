@@ -1,0 +1,47 @@
+2026-11-12 11:49:36,866 [INFO] chain: start scan chain
+/app/lib2flipflop.py:534: UserWarning: "DFFRS_X" matcha anche: SDFFRS_X1, SDFFRS_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFR_X" matcha anche: SDFFR_X1, SDFFR_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFS_X" matcha anche: SDFFS_X1, SDFFS_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFF_X" matcha anche: SDFF_X1, SDFF_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+2026-11-12 11:49:37,615 [INFO] chain: Chained (chain 0, 0): _343_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 1): _342_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 2): _341_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 3): _340_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 4): _339_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 5): _338_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 6): _337_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 7): _336_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 8): _335_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 9): _334_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 10): _333_
+2026-11-12 11:49:37,616 [INFO] chain: Chained (chain 0, 11): _332_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 12): _331_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 13): _330_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 14): _329_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 15): _328_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 16): _327_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 17): _326_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 18): _325_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 19): _324_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 20): _323_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 21): _322_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 22): _321_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 23): _320_
+2026-11-12 11:49:37,617 [INFO] chain: Chained (chain 0, 24): _319_
+2026-11-12 11:49:37,618 [INFO] chain: Chained (chain 0, 25): _318_
+2026-11-12 11:49:37,618 [INFO] chain: Chained (chain 0, 26): _317_
+2026-11-12 11:49:37,618 [INFO] chain: Chained (chain 0, 27): _316_
+2026-11-12 11:49:37,618 [INFO] chain: Chained (chain 0, 28): _315_
+2026-11-12 11:49:37,618 [INFO] chain: Chained (chain 0, 29): _314_
+2026-11-12 11:49:37,643 [INFO] chain: Internal scan chain inserted: 30 FFs in 1 chain(s) (sizes 30, shift depth 30), mux MUX2_X1, clock mux __clk_source__
+2026-11-12 11:49:37,643 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:49:37,643 [INFO] chain: the scan chain file name is b09_45nm.scan.v
+2026-11-12 11:49:37,644 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:49:37,644 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:49:37,644 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:49:37,644 [INFO] polaris:  chain                             0.78        0.79            0.00            80.7          48.9          0.0
+2026-11-12 11:49:37,644 [INFO] polaris:  RSS peak of Polaris on the entire run: 82.8 MB

@@ -1,0 +1,25 @@
+2026-11-12 11:48:49,384 [INFO] chain: start scan chain
+/app/lib2flipflop.py:534: UserWarning: "DFFRNQ_X" matcha anche: SDFFRNQ_X1
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFSNQ_X" matcha anche: SDFFSNQ_X1
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+2026-11-12 11:49:00,055 [INFO] chain: Chained (chain 0, 0): _125_
+2026-11-12 11:49:00,055 [INFO] chain: Chained (chain 0, 1): _124_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 2): _123_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 3): _122_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 4): _121_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 5): _120_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 6): _119_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 7): _118_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 8): _117_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 9): _116_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 10): _115_
+2026-11-12 11:49:00,056 [INFO] chain: Chained (chain 0, 11): _114_
+2026-11-12 11:49:00,068 [INFO] chain: Internal scan chain inserted: 12 FFs in 1 chain(s) (sizes 12, shift depth 12), mux MUX2_X1, clock mux __clk_source__
+2026-11-12 11:49:00,069 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:49:00,069 [INFO] chain: the scan chain file name is b06_15nm.scan.v
+2026-11-12 11:49:00,069 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:49:00,069 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:49:00,069 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:49:00,069 [INFO] polaris:  chain                            10.68       10.77            0.00           928.3         894.9          0.0
+2026-11-12 11:49:00,069 [INFO] polaris:  RSS peak of Polaris on the entire run: 931.3 MB

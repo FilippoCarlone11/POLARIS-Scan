@@ -63,5 +63,6 @@ test_b%:
 
 ## clean_polaris_objects: remove all the generated files (verilog, bench, log, test, vec)
 clean_polaris_objects:
+	find -type f -name "*.scan.v" -delete
 	find -type f -name "*chain.v" -delete
 	find -type f -name "*.rpt" -delete

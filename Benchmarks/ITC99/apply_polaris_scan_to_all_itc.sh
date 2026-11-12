@@ -9,10 +9,11 @@ for i in $(seq -w 1 22); do
     cd "$folder" || exit
     
     # Esecuzione per le tecnologie scelte
+    mkdir -p log
     for tech in 15nm 45nm 130nm; do
       polaris "b${i}_${tech}.tcl" \
-        > "b${i}_${tech}_stdout.log" \
-        2> "b${i}_${tech}_stderr.log" 
+        > "log/b${i}_${tech}_stdout.log" \
+        2> "log/b${i}_${tech}_stderr.log" 
     done
     
     cd ..

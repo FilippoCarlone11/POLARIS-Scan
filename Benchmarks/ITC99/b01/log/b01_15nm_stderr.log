@@ -1,0 +1,18 @@
+2026-11-12 11:47:47,779 [INFO] chain: start scan chain
+/app/lib2flipflop.py:534: UserWarning: "DFFRNQ_X" matcha anche: SDFFRNQ_X1
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFSNQ_X" matcha anche: SDFFSNQ_X1
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+2026-11-12 11:47:58,458 [INFO] chain: Chained (chain 0, 0): _98_
+2026-11-12 11:47:58,458 [INFO] chain: Chained (chain 0, 1): _97_
+2026-11-12 11:47:58,459 [INFO] chain: Chained (chain 0, 2): _96_
+2026-11-12 11:47:58,459 [INFO] chain: Chained (chain 0, 3): _95_
+2026-11-12 11:47:58,459 [INFO] chain: Chained (chain 0, 4): _94_
+2026-11-12 11:47:58,473 [INFO] chain: Internal scan chain inserted: 5 FFs in 1 chain(s) (sizes 5, shift depth 5), mux MUX2_X1, clock mux __clk_source__
+2026-11-12 11:47:58,473 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:47:58,473 [INFO] chain: the scan chain file name is b01_15nm.scan.v
+2026-11-12 11:47:58,473 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:47:58,474 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:47:58,474 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:47:58,474 [INFO] polaris:  chain                            10.69       10.76            0.00           928.5         894.9          0.0
+2026-11-12 11:47:58,474 [INFO] polaris:  RSS peak of Polaris on the entire run: 931.1 MB

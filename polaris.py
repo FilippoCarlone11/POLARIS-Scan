@@ -21,8 +21,6 @@ from profiling import PROFILER
 
 
 def main():
-    setup_logging(polaris_scan_report)
-    log = logging.getLogger("polaris")
     parser = argparse.ArgumentParser(
         prog="polaris",
         description="POLARIS (POLito ATPG-Ready Insertion of Scan) is a Design-for-Testability tool developed at Politecnico di Torino that automates scan chain insertion. Like the North Star, it guides designers toward fully testable circuits."
@@ -39,8 +37,12 @@ def main():
 
     filename = args.tcl_file
     configuration = None
+    log = logging.getLogger("polaris")
     try:
         configuration = parse_tcl(filename)
+        work_dir = Path(configuration['work_dir'])
+        setup_logging(work_dir / polaris_scan_report)
+        log = logging.getLogger("polaris")
 
         operations = configuration['operations']
 

@@ -1,0 +1,37 @@
+2026-11-12 11:49:37,762 [INFO] chain: start scan chain
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 0): _437_
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 1): _436_
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 2): _435_
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 3): _434_
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 4): _433_
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 5): _432_
+2026-11-12 11:49:37,972 [INFO] chain: Chained (chain 0, 6): _431_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 7): _430_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 8): _429_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 9): _428_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 10): _427_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 11): _426_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 12): _425_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 13): _424_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 14): _423_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 15): _422_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 16): _421_
+2026-11-12 11:49:37,973 [INFO] chain: Chained (chain 0, 17): _420_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 18): _419_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 19): _418_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 20): _417_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 21): _416_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 22): _415_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 23): _414_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 24): _413_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 25): _412_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 26): _411_
+2026-11-12 11:49:37,974 [INFO] chain: Chained (chain 0, 27): _410_
+2026-11-12 11:49:38,005 [INFO] chain: Internal scan chain inserted: 28 FFs in 1 chain(s) (sizes 28, shift depth 28), mux sg13g2_mux2_1, clock mux __clk_source__
+2026-11-12 11:49:38,005 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:49:38,005 [INFO] chain: the scan chain file name is b09_130nm.scan.v
+2026-11-12 11:49:38,006 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:49:38,006 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:49:38,006 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:49:38,006 [INFO] polaris:  chain                             0.24        0.25            0.00            48.6          14.3          0.0
+2026-11-12 11:49:38,006 [INFO] polaris:  RSS peak of Polaris on the entire run: 48.2 MB

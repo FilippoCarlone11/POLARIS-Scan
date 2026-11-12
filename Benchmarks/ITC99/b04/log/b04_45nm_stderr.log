@@ -1,0 +1,84 @@
+2026-11-12 11:48:34,644 [INFO] chain: start scan chain
+/app/lib2flipflop.py:534: UserWarning: "DFFRS_X" matcha anche: SDFFRS_X1, SDFFRS_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFR_X" matcha anche: SDFFR_X1, SDFFR_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFS_X" matcha anche: SDFFS_X1, SDFFS_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFF_X" matcha anche: SDFF_X1, SDFF_X2
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+2026-11-12 11:48:35,415 [INFO] chain: Chained (chain 0, 0): _761_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 1): _760_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 2): _759_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 3): _758_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 4): _757_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 5): _756_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 6): _755_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 7): _754_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 8): _753_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 9): _752_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 10): _751_
+2026-11-12 11:48:35,416 [INFO] chain: Chained (chain 0, 11): _750_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 12): _749_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 13): _748_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 14): _747_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 15): _746_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 16): _745_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 17): _744_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 18): _743_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 19): _742_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 20): _741_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 21): _740_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 22): _739_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 23): _738_
+2026-11-12 11:48:35,417 [INFO] chain: Chained (chain 0, 24): _737_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 25): _736_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 26): _735_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 27): _734_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 28): _733_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 29): _732_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 30): _731_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 31): _730_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 32): _729_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 33): _728_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 34): _727_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 35): _726_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 36): _725_
+2026-11-12 11:48:35,418 [INFO] chain: Chained (chain 0, 37): _724_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 38): _723_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 39): _722_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 40): _721_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 41): _720_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 42): _719_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 43): _718_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 44): _717_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 45): _716_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 46): _715_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 47): _714_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 48): _713_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 49): _712_
+2026-11-12 11:48:35,419 [INFO] chain: Chained (chain 0, 50): _711_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 51): _710_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 52): _709_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 53): _708_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 54): _707_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 55): _706_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 56): _705_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 57): _704_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 58): _703_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 59): _702_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 60): _701_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 61): _700_
+2026-11-12 11:48:35,420 [INFO] chain: Chained (chain 0, 62): _699_
+2026-11-12 11:48:35,421 [INFO] chain: Chained (chain 0, 63): _698_
+2026-11-12 11:48:35,421 [INFO] chain: Chained (chain 0, 64): _697_
+2026-11-12 11:48:35,421 [INFO] chain: Chained (chain 0, 65): _696_
+2026-11-12 11:48:35,421 [INFO] chain: Chained (chain 0, 66): _695_
+2026-11-12 11:48:35,475 [INFO] chain: Internal scan chain inserted: 67 FFs in 1 chain(s) (sizes 67, shift depth 67), mux MUX2_X1, clock mux __clk_source__
+2026-11-12 11:48:35,475 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:48:35,475 [INFO] chain: the scan chain file name is b04_45nm.scan.v
+2026-11-12 11:48:35,476 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:48:35,476 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:48:35,476 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:48:35,476 [INFO] polaris:  chain                             0.83        0.84            0.00            81.0          47.2          0.0
+2026-11-12 11:48:35,476 [INFO] polaris:  RSS peak of Polaris on the entire run: 84.8 MB

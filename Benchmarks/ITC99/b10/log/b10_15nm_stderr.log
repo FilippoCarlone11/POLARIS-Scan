@@ -1,0 +1,30 @@
+2026-11-12 11:49:38,119 [INFO] chain: start scan chain
+/app/lib2flipflop.py:534: UserWarning: "DFFRNQ_X" matcha anche: SDFFRNQ_X1
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+/app/lib2flipflop.py:534: UserWarning: "DFFSNQ_X" matcha anche: SDFFSNQ_X1
+  warnings.warn(f'"{pat}" matcha anche: {", ".join(others)}')
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 0): _384_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 1): _383_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 2): _382_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 3): _381_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 4): _380_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 5): _379_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 6): _378_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 7): _377_
+2026-11-12 11:49:49,052 [INFO] chain: Chained (chain 0, 8): _376_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 9): _375_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 10): _374_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 11): _373_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 12): _372_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 13): _371_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 14): _370_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 15): _369_
+2026-11-12 11:49:49,053 [INFO] chain: Chained (chain 0, 16): _368_
+2026-11-12 11:49:49,081 [INFO] chain: Internal scan chain inserted: 17 FFs in 1 chain(s) (sizes 17, shift depth 17), mux MUX2_X1, clock mux __clk_source__
+2026-11-12 11:49:49,081 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:49:49,081 [INFO] chain: the scan chain file name is b10_15nm.scan.v
+2026-11-12 11:49:49,082 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:49:49,082 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:49:49,082 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:49:49,082 [INFO] polaris:  chain                            10.96       11.04            0.00           922.6         888.3          0.0
+2026-11-12 11:49:49,082 [INFO] polaris:  RSS peak of Polaris on the entire run: 932.1 MB

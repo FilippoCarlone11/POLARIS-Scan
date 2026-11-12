@@ -1,4 +1,4 @@
-read_verilog b1 v
+read_verilog b11.v
 hierarchy -check -top b11
 synth -top b11
 opt -full                       

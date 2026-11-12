@@ -1,0 +1,14 @@
+2026-11-12 11:47:59,515 [INFO] chain: start scan chain
+2026-11-12 11:47:59,680 [INFO] chain: Chained (chain 0, 0): _107_
+2026-11-12 11:47:59,680 [INFO] chain: Chained (chain 0, 1): _106_
+2026-11-12 11:47:59,680 [INFO] chain: Chained (chain 0, 2): _105_
+2026-11-12 11:47:59,680 [INFO] chain: Chained (chain 0, 3): _104_
+2026-11-12 11:47:59,680 [INFO] chain: Chained (chain 0, 4): _103_
+2026-11-12 11:47:59,695 [INFO] chain: Internal scan chain inserted: 5 FFs in 1 chain(s) (sizes 5, shift depth 5), mux sg13g2_mux2_1, clock mux __clk_source__
+2026-11-12 11:47:59,695 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:47:59,695 [INFO] chain: the scan chain file name is b01_130nm.scan.v
+2026-11-12 11:47:59,695 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:47:59,695 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:47:59,695 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:47:59,696 [INFO] polaris:  chain                             0.18        0.18            0.00            47.8          13.5          0.0
+2026-11-12 11:47:59,696 [INFO] polaris:  RSS peak of Polaris on the entire run: 47.6 MB

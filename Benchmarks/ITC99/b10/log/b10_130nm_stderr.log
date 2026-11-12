@@ -1,0 +1,26 @@
+2026-11-12 11:49:50,102 [INFO] chain: start scan chain
+2026-11-12 11:49:50,280 [INFO] chain: Chained (chain 0, 0): _357_
+2026-11-12 11:49:50,280 [INFO] chain: Chained (chain 0, 1): _356_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 2): _355_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 3): _354_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 4): _353_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 5): _352_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 6): _351_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 7): _350_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 8): _349_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 9): _348_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 10): _347_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 11): _346_
+2026-11-12 11:49:50,281 [INFO] chain: Chained (chain 0, 12): _345_
+2026-11-12 11:49:50,282 [INFO] chain: Chained (chain 0, 13): _344_
+2026-11-12 11:49:50,282 [INFO] chain: Chained (chain 0, 14): _343_
+2026-11-12 11:49:50,282 [INFO] chain: Chained (chain 0, 15): _342_
+2026-11-12 11:49:50,282 [INFO] chain: Chained (chain 0, 16): _341_
+2026-11-12 11:49:50,308 [INFO] chain: Internal scan chain inserted: 17 FFs in 1 chain(s) (sizes 17, shift depth 17), mux sg13g2_mux2_1, clock mux __clk_source__
+2026-11-12 11:49:50,308 [INFO] chain: The scan chain generation is completed
+2026-11-12 11:49:50,308 [INFO] chain: the scan chain file name is b10_130nm.scan.v
+2026-11-12 11:49:50,308 [INFO] polaris:  ===== Resources per phase =====
+2026-11-12 11:49:50,308 [INFO] polaris:  phase                          wall[s]      CPU[s]   childs CPU[s]     RSSpeak[MB]     +peak[MB]   childs[MB]
+2026-11-12 11:49:50,308 [INFO] polaris:  -------------------------------------------------------------------------------------------------------------
+2026-11-12 11:49:50,308 [INFO] polaris:  chain                             0.21        0.21            0.00            48.4          14.1          0.0
+2026-11-12 11:49:50,309 [INFO] polaris:  RSS peak of Polaris on the entire run: 47.9 MB
