@@ -1,0 +1,13 @@
+Sequence of steps to generate the .db files from the .lib files and perform synth using design compiler:
+
+1) start the tool:
+- From command line type and run: lc_shell
+- the command line must open the tool as: lc_shell>
+
+2) read the library in the .lib format:
+- from the command line in "lc_shell>" mode type: read_lib parth_to_library/name_of_library.lib
+- wait for the loading.
+
+3) generate the .db files:
+- from the command line in "lc_shell>" mode type: write_lib name_of_library -format db -output name_of_library.db
+- done.

@@ -1,0 +1,227 @@
+ 
+                             Library Compiler (TM)
+                                 DesignWare (R)
+
+               Version U-2022.12 for linux64 - Dec 11, 2022 -SLE
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Initializing...
+lc_shell> read_lib lib/sg13g2_stdcell_fast_1p32V_m40C.lib
+Reading '/home/e.rodriguez/syn_libraries/200nm/lib/sg13g2_stdcell_fast_1p32V_m40C.lib' ...
+Warning: Line 19, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 8298, Cell 'sg13g2_decap_4', No internal_power information for the 'sg13g2_decap_4' cell. (LBDB-301)
+Information: Line 8306, Cell 'sg13g2_decap_8', No internal_power information for the 'sg13g2_decap_8' cell. (LBDB-301)
+Warning: Line 14096, Cell 'sg13g2_einvn_2', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14336, Cell 'sg13g2_einvn_4', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14576, Cell 'sg13g2_einvn_8', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Information: Line 14816, Cell 'sg13g2_fill_1', No internal_power information for the 'sg13g2_fill_1' cell. (LBDB-301)
+Information: Line 14824, Cell 'sg13g2_fill_2', No internal_power information for the 'sg13g2_fill_2' cell. (LBDB-301)
+Information: Line 14832, Cell 'sg13g2_fill_4', No internal_power information for the 'sg13g2_fill_4' cell. (LBDB-301)
+Information: Line 14840, Cell 'sg13g2_fill_8', No internal_power information for the 'sg13g2_fill_8' cell. (LBDB-301)
+Information: Line 27701, Cell 'sg13g2_tiehi', No internal_power information for the 'sg13g2_tiehi' cell. (LBDB-301)
+Information: Line 27711, Cell 'sg13g2_tielo', No internal_power information for the 'sg13g2_tielo' cell. (LBDB-301)
+Warning: Line 7691, Cell 'sg13g2_antennanp', Failed to recognize the functionality of cell 'sg13g2_antennanp'. (LIBG-10)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Derived ICG type for cell 'sg13g2_lgcp_1' is 'latch_posedge'. (LIBG-265)
+Warning: Line 15418, Cell 'sg13g2_lgcp_1', Cell(sg13g2_lgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Warning: Line 27347, Cell 'sg13g2_sighold', pin 'SH', The 'SH' Pin/bus on the 'sg13g2_sighold' cell has no 'function' attribute.
+        The cell becomes a black box. (LIBG-16)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Derived ICG type for cell 'sg13g2_slgcp_1' is 'latch_posedge_precontrol'. (LIBG-265)
+Warning: Line 27366, Cell 'sg13g2_slgcp_1', Cell(sg13g2_slgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Technology library 'sg13g2_stdcell_fast_1p32V_m40C' read successfully
+1
+lc_shell> write_lib sg13g2_stdcell_fast_1p32V_m40C -format db -output sg13g2_stdcell_fast_1p32V_m40C.db
+Wrote the 'sg13g2_stdcell_fast_1p32V_m40C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_fast_1p32V_m40C.db' successfully
+1
+lc_shell> read_lib lib/sg13g2_stdcell_fast_1p65V_m40C.lib
+Reading '/home/e.rodriguez/syn_libraries/200nm/lib/sg13g2_stdcell_fast_1p65V_m40C.lib' ...
+Warning: Line 19, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 8298, Cell 'sg13g2_decap_4', No internal_power information for the 'sg13g2_decap_4' cell. (LBDB-301)
+Information: Line 8306, Cell 'sg13g2_decap_8', No internal_power information for the 'sg13g2_decap_8' cell. (LBDB-301)
+Warning: Line 14096, Cell 'sg13g2_einvn_2', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14336, Cell 'sg13g2_einvn_4', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14576, Cell 'sg13g2_einvn_8', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Information: Line 14816, Cell 'sg13g2_fill_1', No internal_power information for the 'sg13g2_fill_1' cell. (LBDB-301)
+Information: Line 14824, Cell 'sg13g2_fill_2', No internal_power information for the 'sg13g2_fill_2' cell. (LBDB-301)
+Information: Line 14832, Cell 'sg13g2_fill_4', No internal_power information for the 'sg13g2_fill_4' cell. (LBDB-301)
+Information: Line 14840, Cell 'sg13g2_fill_8', No internal_power information for the 'sg13g2_fill_8' cell. (LBDB-301)
+Information: Line 27701, Cell 'sg13g2_tiehi', No internal_power information for the 'sg13g2_tiehi' cell. (LBDB-301)
+Information: Line 27711, Cell 'sg13g2_tielo', No internal_power information for the 'sg13g2_tielo' cell. (LBDB-301)
+Warning: Line 7691, Cell 'sg13g2_antennanp', Failed to recognize the functionality of cell 'sg13g2_antennanp'. (LIBG-10)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Derived ICG type for cell 'sg13g2_lgcp_1' is 'latch_posedge'. (LIBG-265)
+Warning: Line 15418, Cell 'sg13g2_lgcp_1', Cell(sg13g2_lgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Warning: Line 27347, Cell 'sg13g2_sighold', pin 'SH', The 'SH' Pin/bus on the 'sg13g2_sighold' cell has no 'function' attribute.
+        The cell becomes a black box. (LIBG-16)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Derived ICG type for cell 'sg13g2_slgcp_1' is 'latch_posedge_precontrol'. (LIBG-265)
+Warning: Line 27366, Cell 'sg13g2_slgcp_1', Cell(sg13g2_slgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Technology library 'sg13g2_stdcell_fast_1p65V_m40C' read successfully
+1
+lc_shell> write_lib sg13g2_stdcell_fast_1p65V_m40C -format db -output sg13g2_stdcell_fast_1p65V_m40C.db
+Wrote the 'sg13g2_stdcell_fast_1p65V_m40C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_fast_1p65V_m40C.db' successfully
+1
+lc_shell> read_lib lib/sg13g2_stdcell_slow_1p08V_125C.lib
+Reading '/home/e.rodriguez/syn_libraries/200nm/lib/sg13g2_stdcell_slow_1p08V_125C.lib' ...
+Warning: Line 19, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 8298, Cell 'sg13g2_decap_4', No internal_power information for the 'sg13g2_decap_4' cell. (LBDB-301)
+Information: Line 8306, Cell 'sg13g2_decap_8', No internal_power information for the 'sg13g2_decap_8' cell. (LBDB-301)
+Warning: Line 14096, Cell 'sg13g2_einvn_2', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14336, Cell 'sg13g2_einvn_4', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14576, Cell 'sg13g2_einvn_8', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Information: Line 14816, Cell 'sg13g2_fill_1', No internal_power information for the 'sg13g2_fill_1' cell. (LBDB-301)
+Information: Line 14824, Cell 'sg13g2_fill_2', No internal_power information for the 'sg13g2_fill_2' cell. (LBDB-301)
+Information: Line 14832, Cell 'sg13g2_fill_4', No internal_power information for the 'sg13g2_fill_4' cell. (LBDB-301)
+Information: Line 14840, Cell 'sg13g2_fill_8', No internal_power information for the 'sg13g2_fill_8' cell. (LBDB-301)
+Information: Line 27701, Cell 'sg13g2_tiehi', No internal_power information for the 'sg13g2_tiehi' cell. (LBDB-301)
+Information: Line 27711, Cell 'sg13g2_tielo', No internal_power information for the 'sg13g2_tielo' cell. (LBDB-301)
+Warning: Line 7691, Cell 'sg13g2_antennanp', Failed to recognize the functionality of cell 'sg13g2_antennanp'. (LIBG-10)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Derived ICG type for cell 'sg13g2_lgcp_1' is 'latch_posedge'. (LIBG-265)
+Warning: Line 15418, Cell 'sg13g2_lgcp_1', Cell(sg13g2_lgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Warning: Line 27347, Cell 'sg13g2_sighold', pin 'SH', The 'SH' Pin/bus on the 'sg13g2_sighold' cell has no 'function' attribute.
+        The cell becomes a black box. (LIBG-16)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Derived ICG type for cell 'sg13g2_slgcp_1' is 'latch_posedge_precontrol'. (LIBG-265)
+Warning: Line 27366, Cell 'sg13g2_slgcp_1', Cell(sg13g2_slgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Technology library 'sg13g2_stdcell_slow_1p08V_125C' read successfully
+1
+lc_shell> write_lib sg13g2_stdcell_slow_1p08V_125C -format db -output sg13g2_stdcell_slow_1p08V_125C.db
+Wrote the 'sg13g2_stdcell_slow_1p08V_125C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_slow_1p08V_125C.db' successfully
+1
+lc_shell> read_lib lib/sg13g2_stdcell_slow_1p35V_125C.lib
+Reading '/home/e.rodriguez/syn_libraries/200nm/lib/sg13g2_stdcell_slow_1p35V_125C.lib' ...
+Warning: Line 19, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 8298, Cell 'sg13g2_decap_4', No internal_power information for the 'sg13g2_decap_4' cell. (LBDB-301)
+Information: Line 8306, Cell 'sg13g2_decap_8', No internal_power information for the 'sg13g2_decap_8' cell. (LBDB-301)
+Warning: Line 14096, Cell 'sg13g2_einvn_2', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14336, Cell 'sg13g2_einvn_4', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14576, Cell 'sg13g2_einvn_8', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Information: Line 14816, Cell 'sg13g2_fill_1', No internal_power information for the 'sg13g2_fill_1' cell. (LBDB-301)
+Information: Line 14824, Cell 'sg13g2_fill_2', No internal_power information for the 'sg13g2_fill_2' cell. (LBDB-301)
+Information: Line 14832, Cell 'sg13g2_fill_4', No internal_power information for the 'sg13g2_fill_4' cell. (LBDB-301)
+Information: Line 14840, Cell 'sg13g2_fill_8', No internal_power information for the 'sg13g2_fill_8' cell. (LBDB-301)
+Information: Line 27701, Cell 'sg13g2_tiehi', No internal_power information for the 'sg13g2_tiehi' cell. (LBDB-301)
+Information: Line 27711, Cell 'sg13g2_tielo', No internal_power information for the 'sg13g2_tielo' cell. (LBDB-301)
+Warning: Line 7691, Cell 'sg13g2_antennanp', Failed to recognize the functionality of cell 'sg13g2_antennanp'. (LIBG-10)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Derived ICG type for cell 'sg13g2_lgcp_1' is 'latch_posedge'. (LIBG-265)
+Warning: Line 15418, Cell 'sg13g2_lgcp_1', Cell(sg13g2_lgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Warning: Line 27347, Cell 'sg13g2_sighold', pin 'SH', The 'SH' Pin/bus on the 'sg13g2_sighold' cell has no 'function' attribute.
+        The cell becomes a black box. (LIBG-16)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Derived ICG type for cell 'sg13g2_slgcp_1' is 'latch_posedge_precontrol'. (LIBG-265)
+Warning: Line 27366, Cell 'sg13g2_slgcp_1', Cell(sg13g2_slgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Technology library 'sg13g2_stdcell_slow_1p35V_125C' read successfully
+1
+lc_shell> write_lib sg13g2_stdcell_slow_1p35V_125C -format db -output sg13g2_stdcell_slow_1p35V_125C.db
+Wrote the 'sg13g2_stdcell_slow_1p35V_125C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_slow_1p35V_125C.db' successfully
+1
+lc_shell> read_lib lib/sg13g2_stdcell_typ_1p20V_25C.lib
+Reading '/home/e.rodriguez/syn_libraries/200nm/lib/sg13g2_stdcell_typ_1p20V_25C.lib' ...
+Warning: Line 19, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 8298, Cell 'sg13g2_decap_4', No internal_power information for the 'sg13g2_decap_4' cell. (LBDB-301)
+Information: Line 8306, Cell 'sg13g2_decap_8', No internal_power information for the 'sg13g2_decap_8' cell. (LBDB-301)
+Warning: Line 14096, Cell 'sg13g2_einvn_2', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14336, Cell 'sg13g2_einvn_4', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14576, Cell 'sg13g2_einvn_8', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Information: Line 14816, Cell 'sg13g2_fill_1', No internal_power information for the 'sg13g2_fill_1' cell. (LBDB-301)
+Information: Line 14824, Cell 'sg13g2_fill_2', No internal_power information for the 'sg13g2_fill_2' cell. (LBDB-301)
+Information: Line 14832, Cell 'sg13g2_fill_4', No internal_power information for the 'sg13g2_fill_4' cell. (LBDB-301)
+Information: Line 14840, Cell 'sg13g2_fill_8', No internal_power information for the 'sg13g2_fill_8' cell. (LBDB-301)
+Information: Line 27701, Cell 'sg13g2_tiehi', No internal_power information for the 'sg13g2_tiehi' cell. (LBDB-301)
+Information: Line 27711, Cell 'sg13g2_tielo', No internal_power information for the 'sg13g2_tielo' cell. (LBDB-301)
+Warning: Line 7691, Cell 'sg13g2_antennanp', Failed to recognize the functionality of cell 'sg13g2_antennanp'. (LIBG-10)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Derived ICG type for cell 'sg13g2_lgcp_1' is 'latch_posedge'. (LIBG-265)
+Warning: Line 15418, Cell 'sg13g2_lgcp_1', Cell(sg13g2_lgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Warning: Line 27347, Cell 'sg13g2_sighold', pin 'SH', The 'SH' Pin/bus on the 'sg13g2_sighold' cell has no 'function' attribute.
+        The cell becomes a black box. (LIBG-16)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Derived ICG type for cell 'sg13g2_slgcp_1' is 'latch_posedge_precontrol'. (LIBG-265)
+Warning: Line 27366, Cell 'sg13g2_slgcp_1', Cell(sg13g2_slgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Technology library 'sg13g2_stdcell_typ_1p20V_25C' read successfully
+1
+lc_shell> write_lib sg13g2_stdcell_typ_1p20V_25C -format db -output sg13g2_stdcell_typ_1p20V_25C.db
+Wrote the 'sg13g2_stdcell_typ_1p20V_25C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_typ_1p20V_25C.db' successfully
+1
+lc_shell> read_lib lib/sg13g2_stdcell_typ_1p50V_25C.lib
+Reading '/home/e.rodriguez/syn_libraries/200nm/lib/sg13g2_stdcell_typ_1p50V_25C.lib' ...
+Warning: Line 19, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 8298, Cell 'sg13g2_decap_4', No internal_power information for the 'sg13g2_decap_4' cell. (LBDB-301)
+Information: Line 8306, Cell 'sg13g2_decap_8', No internal_power information for the 'sg13g2_decap_8' cell. (LBDB-301)
+Warning: Line 14096, Cell 'sg13g2_einvn_2', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14336, Cell 'sg13g2_einvn_4', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Warning: Line 14576, Cell 'sg13g2_einvn_8', is missing leakage power possible condition: "TE_B". (LBDB-1220)
+Information: Line 14816, Cell 'sg13g2_fill_1', No internal_power information for the 'sg13g2_fill_1' cell. (LBDB-301)
+Information: Line 14824, Cell 'sg13g2_fill_2', No internal_power information for the 'sg13g2_fill_2' cell. (LBDB-301)
+Information: Line 14832, Cell 'sg13g2_fill_4', No internal_power information for the 'sg13g2_fill_4' cell. (LBDB-301)
+Information: Line 14840, Cell 'sg13g2_fill_8', No internal_power information for the 'sg13g2_fill_8' cell. (LBDB-301)
+Information: Line 27701, Cell 'sg13g2_tiehi', No internal_power information for the 'sg13g2_tiehi' cell. (LBDB-301)
+Information: Line 27711, Cell 'sg13g2_tielo', No internal_power information for the 'sg13g2_tielo' cell. (LBDB-301)
+Warning: Line 7691, Cell 'sg13g2_antennanp', Failed to recognize the functionality of cell 'sg13g2_antennanp'. (LIBG-10)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 15418, Cell 'sg13g2_lgcp_1', Derived ICG type for cell 'sg13g2_lgcp_1' is 'latch_posedge'. (LIBG-265)
+Warning: Line 15418, Cell 'sg13g2_lgcp_1', Cell(sg13g2_lgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Warning: Line 27347, Cell 'sg13g2_sighold', pin 'SH', The 'SH' Pin/bus on the 'sg13g2_sighold' cell has no 'function' attribute.
+        The cell becomes a black box. (LIBG-16)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Complex function sequential cell will skip
+ sequential cell timing consistency check. (LIBG-275)
+Information: Line 27366, Cell 'sg13g2_slgcp_1', Derived ICG type for cell 'sg13g2_slgcp_1' is 'latch_posedge_precontrol'. (LIBG-265)
+Warning: Line 27366, Cell 'sg13g2_slgcp_1', Cell(sg13g2_slgcp_1): The function cannot be recognized 
+        during functional optimization by Design Compiler. (LIBG-205)
+Technology library 'sg13g2_stdcell_typ_1p50V_25C' read successfully
+1
+lc_shell> write_lib sg13g2_stdcell_typ_1p50V_25C -format db -output sg13g2_stdcell_typ_1p50V_25C.db
+Wrote the 'sg13g2_stdcell_typ_1p50V_25C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_typ_1p50V_25C.db' successfully
+1
+lc_shell> exit
+Maximum memory usage for this session: 161.26 MB
+CPU usage for this session:      4 seconds (  0.00 hours)
+Elapsed time for this session: 1119686 seconds (311.02 hours)
+Thank you for using Library Compiler.
+
