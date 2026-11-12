@@ -1,0 +1,102 @@
+# macOS
+.DS_Store
+
+# Swift
+/.build
+/Packages
+/*.xcodeproj
+/DerivedData
+/venv
+
+.build 
+.pytest_cache
+*.out
+*.vcd
+/*.sv
+/*.v
+/*.log
+
+*.json
+!/nix/workspace-state.json 
+parsetab.py
+
+.swiftpm/
+abc.history
+
+# Python
+__pycache__/
+*.egg-info/
+build/
+dist/
+parsetab.py
+parser.out
+/venv
+
+# Artefatti di sintesi e test
+*.synth.v
+*.scan.v
+*.cut.v
+# *.bench
+*.test
+*.out
+*.vcd
+*.vvp
+*.log
+*_script.ys
+*.vec
+
+#aggiunte nostre
+*.swp
+thr*/
+# Cartelle generate dal flusso
+log/
+img/
+# atpg/
+scan/
+simulation/
+synthesis/
+Netlists/
+fftest/
+output/
+testing/
+
+# Tool esterni
+/iverilog*/
+/Atalanta*/
+/podem*/
+/Testbench*/
+
+# Config locale
+config.cfg
+temp.txt
+*.swp
+
+
+parser.out
+parsetab.py
+*.scan.v*
+*script.ys
+*.synth*
+equiv_test.vcd
+sim.vpp
+scan.log
+synthesis.log
+
+.env
+.vscode/
+.idea/
+# Test
+.pytest_cache/
+
+# Nix
+!/nix/workspace-state.json
+
+.venv/
+
+
+*.chain.v
+*.cut.v
+*.bench
+
+*.rpt
+report.txt
