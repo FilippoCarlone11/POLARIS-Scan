@@ -1,7 +1,7 @@
 Tech Info
 ------------------------------------------------------------------------------------------
 Technology   : SG13G2
-Revision     : rev0.1.0
+Revision     : rev0. 0
 Date         : 26 Mar 2024
 
 ------------------------------------------------------------------------------------------
@@ -11,9 +11,9 @@ For more details about the available process modules please refer to the related
 Important Notes:
 ------------------------------------------------------------------------------------------
 
-1. Reasons for Release:
+  Reasons for Release:
 ==========================================================================================
-Rev0.1.0: VSS and VDD are defined as global nets with inherited connection. LEF was updated
+Rev0. 0: VSS and VDD are defined as global nets with inherited connection. LEF was updated
           with this change. Liberty models and datasheets were regenerated, standard cells
           were re-characterized with updated QRC tech file and 'buf_1' active driver setting
           for all input pins.

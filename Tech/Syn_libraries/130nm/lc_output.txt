@@ -220,8 +220,8 @@ lc_shell> write_lib sg13g2_stdcell_typ_1p50V_25C -format db -output sg13g2_stdce
 Wrote the 'sg13g2_stdcell_typ_1p50V_25C' library to '/home/e.rodriguez/syn_libraries/200nm/sg13g2_stdcell_typ_1p50V_25C.db' successfully
 1
 lc_shell> exit
-Maximum memory usage for this session: 161.26 MB
+Maximum memory usage for this session: 16 26 MB
 CPU usage for this session:      4 seconds (  0.00 hours)
-Elapsed time for this session: 1119686 seconds (311.02 hours)
+Elapsed time for this session: 1119686 seconds (31 02 hours)
 Thank you for using Library Compiler.
 

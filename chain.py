@@ -36,6 +36,7 @@
 
 import json
 import sys
+from pathlib import Path
 from pyosys import libyosys as ys
 from lib2flipflop import dff_families, mux_by_lib
 from constants import *
@@ -155,7 +156,7 @@ def chain_scan(verilog_input, clk_name, chain_output, liberty_path=None,
         ys.run_pass("opt_clean -purge", design)
         module = design.top_module()
 
-    # 1. find the FFs (same families as the cut) and detect the library
+    #   find the FFs (same families as the cut) and detect the library
     ffs = []
     lib = None
     for cell in list(module.cells_.values()):
@@ -188,7 +189,7 @@ def chain_scan(verilog_input, clk_name, chain_output, liberty_path=None,
 
     mux_cell_name, mux_i0, mux_i1, mux_s, mux_z = MUX_BY_LIB[lib]
 
-    # 2. existing clock port + new scan ports (one sin/sout pair per chain,
+    # existing clock port + new scan ports (one sin/sout pair per chain,
     #    shift/test/tck shared)
     clk_wire = module.wire(_idw(clk_name))
     if clk_wire is None:
@@ -206,7 +207,7 @@ def chain_scan(verilog_input, clk_name, chain_output, liberty_path=None,
         w.port_output = True
         sout_ws.append(w)
 
-    # 3. clock mux: __clk_source__ = test ? tck : clk 
+    # clock mux: __clk_source__ = test ? tck : clk 
     clk_src = module.addWire(_idw("__clk_source__"), 1)
     cmux = module.addCell(_idw("__clk_mux__"), _idw(mux_cell_name))
     cmux.setPort(_idw(mux_i0), ys.SigSpec(clk_wire))
@@ -214,7 +215,7 @@ def chain_scan(verilog_input, clk_name, chain_output, liberty_path=None,
     cmux.setPort(_idw(mux_s),  ys.SigSpec(test_w))
     cmux.setPort(_idw(mux_z),  ys.SigSpec(clk_src))
 
-    # 4. the chains: a mux on every FF's D, CLK rewired to __clk_source__.
+    # the chains: a mux on every FF's D, CLK rewired to __clk_source__.
     #    The FFs are taken in netlist order and split into balanced contiguous
     #    groups; the cell/wire indices stay GLOBAL so the names are unique.
     sizes = split_chains(len(ffs), n_chains)
@@ -256,13 +257,14 @@ def chain_scan(verilog_input, clk_name, chain_output, liberty_path=None,
             log.info(f"Chained (chain {c}, {i}): {ff_name}")
             i += 1
 
-        # 5. sout of this chain = Q of its last FF
+        # sout of this chain = Q of its last FF
         module.connect(ys.SigSpec(sout_ws[c]), prev)
         chains_meta.append({"sin": sin_names[c], "sout": sout_names[c], "order": order})
 
     module.fixup_ports()
 
-    # 6. write the netlist + metadata in Fault's format
+    # write the netlist + metadata in Fault's format
+    Path(chain_output).parent.mkdir(parents=True, exist_ok=True)
     ys.run_pass(f"write_verilog {chain_output}", design)
 
     # metadata: the historical fields keep their meaning (order = all the FFs

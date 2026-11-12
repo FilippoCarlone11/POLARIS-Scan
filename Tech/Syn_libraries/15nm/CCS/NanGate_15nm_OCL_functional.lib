@@ -34,7 +34,7 @@ library (NanGate_15nm_OCL) {
 
   /* Documentation Attributes */
   date                    		: "Wed, 28 May 2014, 17:47:39";
-  revision                		: "revision 1.0";
+  revision                		: "revision  0";
   comment                 		: "Copyright (c) 2004-2014 Nangate Inc. All Rights Reserved.";
 
   define(drive_strength, cell, float);
@@ -922,7 +922,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 16;
 
-	area               	: 1.277952;
+	area               	:  277952;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -1192,7 +1192,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 16;
 
-	area               	: 1.277952;
+	area               	:  277952;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -1320,7 +1320,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 1;
 
-	area               	: 1.277952;
+	area               	:  277952;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -1387,7 +1387,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 1;
 
-	area               	: 1.277952;
+	area               	:  277952;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -1448,7 +1448,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 1;
 
-	area               	: 1.179648;
+	area               	:  179648;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -3472,7 +3472,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 1;
 
-	area               	: 1.622016;
+	area               	:  622016;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -3586,7 +3586,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 1;
 
-	area               	: 1.622016;
+	area               	:  622016;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -3853,7 +3853,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 8;
 
-	area               	: 1.032192;
+	area               	:  032192;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -3906,7 +3906,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 1;
 
-	area               	: 1.327104;
+	area               	:  327104;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
@@ -3959,7 +3959,7 @@ library (NanGate_15nm_OCL) {
 
 	drive_strength	: 16;
 
-	area               	: 1.622016;
+	area               	:  622016;
 	pg_pin(VDD) {
 		voltage_name : VDD;
 		pg_type      : primary_power;
