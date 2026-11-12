@@ -100,3 +100,5 @@ synthesis.log
 
 *.rpt
 report.txt
+
+./__pycache__/
