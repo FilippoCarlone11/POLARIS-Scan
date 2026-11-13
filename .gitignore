@@ -71,5 +71,6 @@ synthesis.log
 
 *.rpt
 report.txt
-
+*.log
+/log
 ./__pycache__/

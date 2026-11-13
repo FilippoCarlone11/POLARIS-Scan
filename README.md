@@ -35,3 +35,18 @@ Once your tool is built and your `.tcl` script is ready, you can execute Polaris
 ```bash
 polaris b01_15nm.tcl
 ```
+
+## License & Third-Party Assets
+
+The source code of this project is licensed under the **MIT License** (see the `LICENSE` file for details).
+
+### Nangate 15nm and 45nm Open Cell Library
+The standard cell library files located in `Tech/45nm/lib` and in `Tech/15nm/CCS` (used solely to demonstrate and verify this project) are **not** covered by the MIT License. They were developed by Nangate Inc. and are subject to the **Nangate Open Cell Library License, Version 1.0** (see `Tech/45nm/lib/LICENSE`). 
+
+Per the Nangate license terms, these specific files are provided for **non-commercial, academic, and research purposes only**. Commercial use or fabrication using these library files is strictly prohibited without prior permission from Nangate/Silvaco.
+
+### IHP Open Source PDK
+Verification and benchmarking were performed using the **IHP Open Source PDK (130nm SG13G2)**, developed by IHP GmbH. 
+
+* **License:** The IHP Open PDK files (located in `Tech/130nm/lib` or linked as a submodule) are licensed under the **Apache License 2.0**, permitting both academic and commercial use.
+*
